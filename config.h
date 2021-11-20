@@ -104,24 +104,49 @@ float alpha = 1.00;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    /* vim-deus */
+    // /* vim-deus */
+    // /* 8 normal colors */
+    // [0] = "#242a32", /* black   */
+    // [1] = "#D54E53", /* red     */
+    // [2] = "#98C379", /* green   */
+    // [3] = "#E5C07B", /* yellow  */
+    // [4] = "#83A598", /* blue    */
+    // [5] = "#C678DD", /* magenta */
+    // [6] = "#70C0BA", /* cyan    */
+    // [7] = "#EAEAEA", /* white   */
+    //
+    // /* 8 bright colors */
+    // [8] = "#666666",  /* bright black   */
+    // [9] = "#EC3E45",  /* bright red     */
+    // [10] = "#90C996", /* bright green   */
+    // [11] = "#EDBF69", /* bright yellow  */
+    // [12] = "#73BA9F", /* bright blue    */
+    // [13] = "#C858E9", /* bright magenta */
+    // [14] = "#2BCEC2", /* bright cyan    */
+    // [15] = "#FFFFFF", /* bright white   */
+    //
+    // /* special colors */
+    // [256] = "#2C323B", /* background */
+    // [257] = "#EAEAEA", /* foreground */
+
+    /* my-theme */
     /* 8 normal colors */
     [0] = "#242a32", /* black   */
-    [1] = "#D54E53", /* red     */
+    [1] = "#FB4934", /* red     */
     [2] = "#98C379", /* green   */
-    [3] = "#E5C07B", /* yellow  */
-    [4] = "#83A598", /* blue    */
-    [5] = "#C678DD", /* magenta */
+    [3] = "#FABD2F", /* yellow  */
+    [4] = "#6699CC", /* blue    */
+    [5] = "#D5508F", /* magenta */
     [6] = "#70C0BA", /* cyan    */
     [7] = "#EAEAEA", /* white   */
 
     /* 8 bright colors */
     [8] = "#666666",  /* bright black   */
-    [9] = "#EC3E45",  /* bright red     */
-    [10] = "#90C996", /* bright green   */
-    [11] = "#EDBF69", /* bright yellow  */
-    [12] = "#73BA9F", /* bright blue    */
-    [13] = "#C858E9", /* bright magenta */
+    [9] = "#A80000",  /* bright red     */
+    [10] = "#A0FF70", /* bright green   */
+    [11] = "#F0AF00", /* bright yellow  */
+    [12] = "#49A0F0", /* bright blue    */
+    [13] = "#FFa6FF", /* bright magenta */
     [14] = "#2BCEC2", /* bright cyan    */
     [15] = "#FFFFFF", /* bright white   */
 
