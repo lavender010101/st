@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Icon=launchpad.svg
+Exec=st
+Name[en_US]=Simple Terminal
+Name=Simple Terminal
+Comment[en_US]=Simple Terminal
+Comment=Simple Terminal
+Terminal=false
+Categories=GTK;System;TerminalEmulator;
+StartupNotify=true
